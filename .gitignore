@@ -1,0 +1,8 @@
+.DS_Store
+.prettierignore
+README-template.md
+style-guide.md
+dist/
+node_modules/
+.parcel-cache/
+package-lock.json

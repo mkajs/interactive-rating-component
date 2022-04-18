@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.scss" />
+    <script type="module" src="app.js"></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container">
+      <div class="rating-card">
+        <div class="star-container">
+          <img src="images/icon-star.svg" alt="star icon" />
+        </div>
+        <h1 class="h1">عملکرد ما چطور بود؟</h1>
+        <p class="paragraph">
+          عملکرد ما چطور بود؟ لطفاً به ما اطلاع دهید که با درخواست پشتیبانی شما
+          چگونه عمل کردیم. به خاطر همه بازخوردها برای کمک به ما در بهبود خدمات
+          تشکر میکنیم!
+        </p>
+        <div class="rating-container">
+          <a href="#" class="rating" data-rating="1">1</a>
+          <a href="#" class="rating" data-rating="2">2</a>
+          <a href="#" class="rating" data-rating="3">3</a>
+          <a href="#" class="rating" data-rating="4">4</a>
+          <a href="#" class="rating active" data-rating="5">5</a>
+        </div>
+        <button id="submit-rating">ارسال</button>
+      </div>
+      <div class="thanks-card">
+        <img src="images/illustration-thank-you.svg" alt="thanks image" />
+        <p class="badge">
+          شما رتبه <span id="rate"></span> از 5 را انتخاب کردید.
+        </p>
+        <p class="h1">از انتخاب شما متشکریم.</p>
+        <p class="paragraph">
+          از اینکه برای امتیاز دادن وقت گذاشتید سپاسگزاریم. اگر اگر زمانی به
+          پشتیبانی بیشتری نیاز داشتید، در تماس با ما شک نکنید!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
